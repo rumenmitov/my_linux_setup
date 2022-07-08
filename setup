@@ -1,0 +1,4 @@
+echo "Setup is beginning!"
+pacman -S i3
+pacman -S terminator
+pacman -S firefox-developer-edition 
