@@ -1,4 +1,5 @@
 echo "Setup is beginning!"
+chmod +x bar.sh
 pacman -S i3
 pacman -S terminator
 pacman -S firefox-developer-edition 
