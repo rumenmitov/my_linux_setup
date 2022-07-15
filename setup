@@ -1,5 +1,6 @@
 echo "Setup is beginning!"
-chmod +x bar.sh
-pacman -S i3
-pacman -S terminator
-pacman -S firefox-developer-edition 
+echo "___________________"
+sudo chmod +x bar.sh
+sudo apt install i3
+sudo apt install terminator
+sudo apt install firefox-developer-edition 
