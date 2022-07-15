@@ -2,6 +2,7 @@ echo "Setup is beginning!"
 echo "___________________"
 sudo chmod +x bar.sh
 sudo apt install i3
+sudo apt install thunar
 mkdir ~/.config/i3
 cd
 mv my_linux_setup .config/i3/
