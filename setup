@@ -2,5 +2,11 @@ echo "Setup is beginning!"
 echo "___________________"
 sudo chmod +x bar.sh
 sudo apt install i3
+mkdir ~/.config/i3
+cd
+mv my_linux_setup .config/i3/
 sudo apt install terminator
-sudo apt install firefox-developer-edition 
+mkdir fonts
+cd fonts
+git clone https://github.com/googlefonts/opensans.git
+cd
