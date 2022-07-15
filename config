@@ -207,6 +207,3 @@ bar {
 	inactive_workspace	$inactive-bg-color	$inactive-bg-color	$inactive-text-color
 	}
 }
-
-exec_always feh --bg-scale /home/rumen/Pictures/51364.jpg
-
