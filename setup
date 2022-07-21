@@ -1,5 +1,11 @@
 echo "Setup is beginning!"
 echo "___________________"
+sudo chmod +x bashrc
+sudo mv bashrc ~/
+cd ~
+sudo rm .bashrc
+sudo mv bashrc .bashrc
+cd my_linux_setup
 sudo chmod +x bar.sh
 sudo apt install i3
 sudo apt install thunar
