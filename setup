@@ -5,6 +5,7 @@ sudo apt install i3
 sudo apt install thunar
 sudo apt install lxappearance
 sudo apt install compton
+sudo apt install feh
 mkdir ~/.config/i3
 cd
 mv my_linux_setup .config/i3/
