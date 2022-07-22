@@ -217,3 +217,6 @@ floating_maximum_size 750 x 450
 
 #transparency
 exec_always compton
+
+#custom key shortcuts
+bindsym $mod+b exec brave-browser
