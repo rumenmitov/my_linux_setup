@@ -1,22 +1,21 @@
 echo "Setup is beginning!"
 echo "___________________"
-sudo chmod +x bashrc
-sudo mv bashrc ~/
-cd ~
+cd
+sudo chmod +x ~/my_linux_setup/bashrc
+sudo mv ~/my_linux_setup/bashrc ..
 sudo rm .bashrc
 sudo mv bashrc .bashrc
-cd my_linux_setup
-sudo chmod +x bar.sh
+sudo chmod +x ~/my_linux_setup/bar.sh
 sudo apt install i3
 sudo apt install thunar
 sudo apt install lxappearance
 sudo apt install compton
 sudo apt install feh
-mkdir ~/.config/i3
-cd
-mv my_linux_setup .config/i3/
+sudo apt install rofi
+sudo mkdir ~/.config/i3
+sudo mkdir ~/fonts
+sudo mv ~/my_linux_setup/webfonts ~/fonts && sudo mv ~/my_linux_setup/openSans_font ~/fonts
+sudo mv ~/my_linux_setup/bar.sh ~/.config/i3
+sudo mv ~/my_linux_setup/config ~/.config/i3/
+sudo mv ~/my_linux_setup/rofi ~/.config
 sudo apt install gnome-terminal
-mkdir fonts
-cd fonts
-git clone https://github.com/googlefonts/opensans.git
-cd
